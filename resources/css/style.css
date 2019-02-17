@@ -1,0 +1,510 @@
+body {
+  background-image: url(../logo/nature.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #016eef;
+  font-size: 4.5rem;
+  font-family: Audiowide;
+  text-shadow: 4px 4px 14px #1a9bd0;
+  width: 100%;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+h2 {
+  font-weight: bold;
+  color: black;
+  margin: 20px 0px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-weight: bold;
+  color: #016eef;
+  margin: 20px 0px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-family: Audiowide;
+  text-shadow: 4px 4px 14px #1a9bd0;
+}
+
+h4 {
+  text-shadow: 1.5px 1.5px black;
+}
+
+p {
+  margin: 20px 0px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+td, th {
+  border: 0.5px solid skyblue;
+}
+
+header {
+  background-image: url(../logo/nature.jpg);
+  background-position: top;
+  border-bottom: 1px solid skyblue;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  display: block;
+  table-layout: auto;
+  z-index: 999 !important;
+}
+
+footer {
+  border-top: 1px solid skyblue;
+  text-align: center;
+  background-image: url(../logo/pad.jpg);
+  color: white;
+  padding-bottom: 1px;
+}
+
+footer a {
+  color: black;
+}
+
+.logo {
+  display: flex;
+  margin-left: 160px;
+  position: relative;
+}
+
+#cc_logo {
+  width: 18rem;
+}
+
+#treil {
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  font-family: Audiowide;
+  align-self: center;
+  padding: 20px 10px;
+  letter-spacing: 3px;
+  text-shadow: 0.5px 0.5px #b1defd;
+}
+
+.links {
+  margin-left: 90px;
+  width: 50%;
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  color: #c0e2fd;
+  font-weight: bold;
+  background-color: #016eef;
+  border-color: #1fabf8;
+  width: 120px;
+  border-radius: 14px;
+  box-shadow: 3px 4px 8px #0258eb;
+}
+
+.btn:active {
+  background-color: #c2e4ff !important;
+  color: black !important;
+  border: none !important;
+  box-shadow: 1px 1px 8px 8px #bddefd;
+}
+
+.btn:hover {
+ background-color: #c3e3fc;
+ color: #016eef;
+ border-color: #bddefd;
+ box-shadow: 1px 1px 8px 8px #bddefd;
+}
+
+/* Jumbotron */
+
+.carousel .jumbotron {
+  margin-bottom: 0px;
+}
+
+.carousel {
+  z-index: auto;
+  min-width: 320px;
+  border: 1px solid #b3dffa;
+  background-color: #b3ecff;
+}
+
+.jumbotron {
+  height: 55rem;
+  padding-top: 18rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.background-jpg1 {
+  background-image: url("../images/bigimages/jpg1.jpg");
+}
+
+.background-jpg2 {
+  background-image: url("../images/bigimages/jpg2.jpg");
+}
+
+.background-jpg3 {
+  background-image: url("../images/bigimages/jpg3.jpg");
+}
+
+.background-jpg4 {
+  background-image: url("../images/bigimages/jpg4.jpg");
+}
+
+.background-jpg5 {
+  background-image: url("../images/bigimages/jpg5.jpg");
+}
+
+.background-jpg6 {
+  background-image: url("../images/bigimages/jpg6.jpg");
+}
+
+.jumbotron h1 {
+  font-family: Audiowide, sans-serif;
+  font-size: 6rem;
+  color: white;
+  text-shadow: 1.5px 1px black;
+  opacity: 0.9;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1.5px 1px black;
+  opacity: 0.9;
+}
+
+.relative-wrapper {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
+/*Jumbotron end*/
+
+.container {
+  padding-top: 90px;
+  background-color: rgba(255,255,255, 0.8);
+}
+
+#index {
+  padding-top: 0px !important;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.pic {
+  width: 100%;
+  border: 1px solid skyblue;
+}
+
+.slick-slider {
+  display: grid;
+}
+
+.slick-arrow {
+  color: #c0e2fd;
+  background-color: #016eef;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  margin: 6px 10px;
+  text-align: center;
+}
+
+.auto {
+  width: 100%;
+  background-color: white;
+  border: 1px solid skyblue;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 20px 12px skyblue;
+}
+
+.map {
+  margin-bottom: 30px;
+  border: 1px solid skyblue;
+}
+
+#maps {
+  border: 1px solid skyblue;
+}
+
+.vienosim {
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: Audiowide;
+  text-align: center;
+  color: black;
+  text-shadow: 0.5px 0.5px #b1defd;
+  letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 319px) {
+  html {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  h1{
+    font-size: 3rem;
+    padding-top: 12px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    padding: 1px 10px;
+  }
+
+  .logo {
+    display: block;
+    margin-left: 0px;
+    animation: none;
+    }
+
+  #cc_logo {
+    width: 10rem;
+    }
+
+  #treil {
+    font-size: 3rem;
+    }
+
+  .links {
+    padding: 10px 0px;
+    margin-left: 24%;
+    }
+
+  .btn {
+    margin-left: 3px;
+    width: 100px;
+    font-weight: normal;
+    }
+
+  .jumbotron {
+    height: 36rem;
+    padding-top: 8rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
+
+  .jumbotron h4 {
+    font-size: 1.5rem;
+  }
+
+  .row {
+    display: none;
+  }
+
+  .map {
+    display: none;
+    }
+
+  #maps {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 6px;
+    }
+
+  .vienosim {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 620px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  footer {
+    padding: 1px 15px;
+  }
+
+  .logo {
+    display: block;
+    margin-left: 0px;
+    animation: none;
+    }
+
+  #cc_logo {
+    width: 10rem;
+    }
+
+  #treil {
+    font-size: 3rem;
+    }
+
+  .links {
+    padding: 10px 0px;
+    margin-left: 20%;
+    }
+
+  .btn {
+    margin-left: 50px;
+    width: 100px;
+    }
+
+  .jumbotron {
+    height: 36rem;
+    padding-top: 9rem;
+  }
+
+  .row {
+    display: none;
+  }
+
+  .map {
+    display: none;
+    }
+
+  #maps {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 6px;
+    }
+
+  .vienosim {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 990px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  footer {
+    padding: 1px 20px;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+
+  #cc_logo {
+    width: 10rem;
+  }
+
+  #treil {
+    font-size: 3rem;
+  }
+
+  .links {
+    margin-left: 0px;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .btn {
+    width: 100px;
+    }
+
+  .jumbotron {
+    height: 44rem;
+    padding-top: 12rem;
+  }
+
+  .row {
+    display: none;
+  }
+
+  #maps {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1280px) {
+  .logo {
+    margin-left: 24px;
+  }
+
+  #cc_logo {
+    width: 12rem;
+  }
+
+  #treil {
+    font-size: 3rem;
+  }
+
+  .links {
+    margin-left: 0px;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .gallery {
+    display: none;
+  }
+
+  #maps {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+  #treil {
+    font-size: 4rem;
+  }
+
+  .gallery {
+    display: none;
+  }
+
+  #maps {
+    display: none;
+  }
+}
