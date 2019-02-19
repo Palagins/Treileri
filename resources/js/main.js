@@ -18,8 +18,8 @@ $(document).ready(function(){
     infinite: true,
     arrows: true,
     adaptiveHeight: true,
-    prevArrow: '<p>Uz Atpakaļ</p>',
-    nextArrow: '<p>Uz Priekšu</p>',
+    prevArrow: '<h5>Uz Atpakaļ</h5>',
+    nextArrow: '<h5>Uz Priekšu</h5>',
     responsive: [
       {
         breakpoint: 620,

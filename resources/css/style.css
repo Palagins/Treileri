@@ -8,19 +8,20 @@ body {
 
 h1 {
   color: #016eef;
-  font-size: 4.5rem;
   font-family: Audiowide;
   text-shadow: 4px 4px 14px #1a9bd0;
   width: 100%;
   text-align: center;
-  margin: 30px 0px;
+  padding: 28px 0px;
+  font-size: 3.2rem;
+  margin-bottom: 0px;
 }
 
 h2 {
   font-weight: bold;
   color: black;
-  margin: 20px 0px;
   letter-spacing: 2px;
+  padding: 20px 0px;
 }
 
 h3 {
@@ -37,10 +38,16 @@ h4 {
   text-shadow: 1.5px 1.5px black;
 }
 
+h5 {
+  padding: 3px 0px;
+  font-size: 1rem;
+}
+
 p {
-  margin: 20px 0px;
   font-weight: bolder;
   letter-spacing: 1px;
+  margin-bottom: 0px;
+  padding: 15px 0px;
 }
 
 td, th {
@@ -64,7 +71,8 @@ footer {
   text-align: center;
   background-image: url(../logo/pad.jpg);
   color: white;
-  padding-bottom: 1px;
+  text-shadow: 1px 1px #016cee;
+  padding-top: 16px;
 }
 
 footer a {
@@ -78,19 +86,21 @@ footer a {
 }
 
 #cc_logo {
-  width: 18rem;
-}
+  width: 14rem;
+  }
 
 #treil {
   color: black;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 3.5rem;
   font-family: Audiowide;
   align-self: center;
-  padding: 20px 10px;
+  padding: 10px 15px;
   letter-spacing: 3px;
   text-shadow: 0.5px 0.5px #b1defd;
 }
+
+
 
 .links {
   margin-left: 90px;
@@ -109,21 +119,14 @@ footer a {
   border-color: #1fabf8;
   width: 120px;
   border-radius: 14px;
-  box-shadow: 3px 4px 8px #0258eb;
-}
-
-.btn:active {
-  background-color: #c2e4ff !important;
-  color: black !important;
-  border: none !important;
-  box-shadow: 1px 1px 8px 8px #bddefd;
+  box-shadow: 6px 6px 4px #0258eb;
 }
 
 .btn:hover {
  background-color: #c3e3fc;
  color: #016eef;
  border-color: #bddefd;
- box-shadow: 1px 1px 8px 8px #bddefd;
+ box-shadow: 0px 0px 20px 16px #bddefd;
 }
 
 /* Jumbotron */
@@ -211,10 +214,18 @@ footer a {
 
 #index {
   padding-top: 0px !important;
+  padding-bottom: 16px;
 }
 
 .thumbnail img {
   width: 100%;
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 .pic {
@@ -240,7 +251,7 @@ footer a {
   width: 100%;
   background-color: white;
   border: 1px solid skyblue;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .table {
@@ -250,7 +261,7 @@ footer a {
 }
 
 .map {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   border: 1px solid skyblue;
 }
 
@@ -276,58 +287,58 @@ footer a {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   h1{
-    font-size: 3rem;
-    padding-top: 12px;
+    font-size: 2.3rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
-  footer {
-    padding: 1px 10px;
+  p {
+    font-size: 0.85rem;
   }
 
   .logo {
     display: block;
     margin-left: 0px;
-    animation: none;
     }
 
   #cc_logo {
-    width: 10rem;
+    width: 7rem;
     }
 
   #treil {
-    font-size: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0px;
     }
 
   .links {
-    padding: 10px 0px;
     margin-left: 24%;
+    padding-bottom: 16px;
     }
 
   .btn {
     margin-left: 3px;
     width: 100px;
     font-weight: normal;
+    font-size: 12px;
     }
 
   .jumbotron {
-    height: 36rem;
+    height: 30rem;
     padding-top: 8rem;
   }
 
   .jumbotron h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .jumbotron h4 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .row {
@@ -341,35 +352,33 @@ footer a {
   #maps {
     height: 400px;
     width: 100%;
-    margin-bottom: 6px;
     }
 
   .vienosim {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 620px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   h3 {
     font-size: 2rem;
   }
 
-  footer {
-    padding: 1px 15px;
+  p {
+    font-size: 0.9rem;
   }
 
   .logo {
     display: block;
     margin-left: 0px;
-    animation: none;
     }
 
   #cc_logo {
@@ -377,16 +386,18 @@ footer a {
     }
 
   #treil {
-    font-size: 3rem;
+    font-size: 2.5rem;
     }
 
   .links {
-    padding: 10px 0px;
     margin-left: 20%;
+    padding-bottom: 18px;
     }
 
   .btn {
     margin-left: 50px;
+    font-weight: normal;
+    font-size: 14px;
     width: 100px;
     }
 
@@ -395,6 +406,14 @@ footer a {
     padding-top: 9rem;
   }
 
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
+
+  .jumbotron h4 {
+    font-size: 1.2rem;
+  }
+
   .row {
     display: none;
   }
@@ -406,41 +425,41 @@ footer a {
   #maps {
     height: 400px;
     width: 100%;
-    margin-bottom: 6px;
     }
 
   .vienosim {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 }
 
 @media only screen and (min-width: 620px) and (max-width: 990px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 
   h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
-  footer {
-    padding: 1px 20px;
+  p {
+    font-size: 0.9rem;
   }
 
   .logo {
-    margin-left: 10px;
+    margin-left: 0px;
   }
 
   #cc_logo {
-    width: 10rem;
+    width: 8rem;
   }
 
   #treil {
-    font-size: 3rem;
+    font-size: 2rem;
+    padding: 0px;
   }
 
   .links {
@@ -451,11 +470,21 @@ footer a {
 
   .btn {
     width: 100px;
+    font-weight: normal;
+    font-size: 14px;
     }
 
   .jumbotron {
-    height: 44rem;
+    height: 42rem;
     padding-top: 12rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
+
+  .jumbotron h4 {
+    font-size: 1.2rem;
   }
 
   .row {
@@ -465,9 +494,17 @@ footer a {
   #maps {
     display: none;
   }
+
+  .vienosim {
+    font-size: 1.8rem;
+  }
 }
 
 @media only screen and (min-width: 990px) and (max-width: 1280px) {
+  p {
+    font-size: 0.9rem;
+  }
+
   .logo {
     margin-left: 24px;
   }
@@ -493,12 +530,14 @@ footer a {
   #maps {
     display: none;
   }
+
+  .vienosim {
+    font-size: 1.8rem;
+  }
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1920px) {
-  #treil {
-    font-size: 4rem;
-  }
+
 
   .gallery {
     display: none;
