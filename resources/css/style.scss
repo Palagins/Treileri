@@ -1,5 +1,54 @@
 /* Backup Section */
+@mixin headText {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Audiowide;
+  align-self: center;
+  padding: 10px 15px;
+  letter-spacing: 3px;
+}
+
+@mixin bigText {
+  color: #016eef;
+  font-family: Audiowide;
+  width: 100%;
+  text-align: center;
+  padding: 28px 0px;
+  margin-bottom: 0px;
+}
+
+@mixin paragraphTxt {
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  padding: 15px 0px;
+  color: #212529e6;
+}
+
+@mixin myButton {
+  color: #CCE7FC;
+  font-weight: bold;
+  background-color: #167EFC;
+  border-color: #1fabf8 #34B4F9;
+  width: 110px;
+  border-radius: 14px;
+
+  &:hover {
+    background-color: #016eef;
+    color: #c0e2fd;
+    border-color: #1fabf8;
+  }
+
+  &:active {
+    background-color: #c3e3fc;
+    color: #016eef;
+    border-color: #bddefd;
+    box-shadow: 0px 0px 20px 16px #bddefd;
+  }
+}
 /* Backup Section End */
+
 /* Work Section */
 header {
   background-image: url(../logo/nature.jpg);
@@ -37,22 +86,13 @@ footer p {
 }
 
 h2 {
-  color: #016eef;
-  font-family: Audiowide;
-  width: 100%;
-  text-align: center;
-  padding: 28px 0px;
-  margin-bottom: 0px;
+  @include bigText;
   font-size: 28px;
   padding: 12px 0px;
 }
 
 p {
-  font-weight: bolder;
-  letter-spacing: 1px;
-  margin-bottom: 0px;
-  padding: 15px 0px;
-  color: #212529e6;
+  @include paragraphTxt;
 }
 
 footer a {
@@ -60,31 +100,21 @@ footer a {
 }
 
 .favtext {
-  color: #016eef;
-  font-family: Audiowide;
-  width: 100%;
-  text-align: center;
-  padding: 28px 0px;
-  margin-bottom: 0px;
+  @include bigText;
   padding-top: 140px;
   font-size: 36px;
   text-shadow: 4px 4px 14px #1a9bd0;
 }
 
 .vieno {
-  color: #016eef;
-  font-family: Audiowide;
-  width: 100%;
-  text-align: center;
-  padding: 28px 0px;
-  margin-bottom: 0px;
-  background-color: rgba(255, 255, 255, 0.7);
+  @include bigText;
+  background-color: rgba(255,255,255, 0.7);
   margin-bottom: 20px;
   padding: 16px 0px;
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255,255,255, 0.8);
   padding-bottom: 1px;
 }
 
@@ -99,13 +129,7 @@ footer a {
 }
 
 .treil {
-  color: black;
-  font-weight: bold;
-  font-size: 32px;
-  font-family: Audiowide;
-  align-self: center;
-  padding: 10px 15px;
-  letter-spacing: 3px;
+  @include headText;
   margin-bottom: 6px;
 }
 
@@ -120,26 +144,9 @@ footer a {
 }
 
 .btn {
-  color: #CCE7FC;
-  font-weight: bold;
-  background-color: #167EFC;
-  border-color: #1fabf8 #34B4F9;
-  width: 110px;
-  border-radius: 14px;
+  @include myButton;
   margin-left: 26px;
 }
-.btn:hover {
-  background-color: #016eef;
-  color: #c0e2fd;
-  border-color: #1fabf8;
-}
-.btn:active {
-  background-color: #c3e3fc;
-  color: #016eef;
-  border-color: #bddefd;
-  box-shadow: 0px 0px 20px 16px #bddefd;
-}
-
 /* Carousel */
 .carousel .jumbotron {
   margin-bottom: 0px;
@@ -207,8 +214,8 @@ footer a {
 .background-jpg6 {
   background-image: url("../images/bigimages/jpg6.jpg");
 }
-
 /* Carousel End */
+
 /* Gallery */
 .thumbnail img {
   width: 100%;
@@ -239,8 +246,8 @@ footer a {
   margin: 6px 10px;
   text-align: center;
 }
-
 /* Gallery End */
+
 /* Video */
 .auto {
   width: 100%;
@@ -249,24 +256,25 @@ footer a {
   margin-bottom: 16px;
   box-shadow: 0px 0px 20px 12px #F8F0DE;
 }
-
 /* Video End */
+
 /* Table */
 .table {
   width: 100%;
   background-color: white;
   box-shadow: 0px 0px 20px 12px skyblue;
 }
-
 /* Table End */
+
 /* Responsive Section */
 @media only screen and (max-width: 319px) {
   html {
     display: none;
   }
 }
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  h1 {
+  h1{
     font-size: 2.3rem;
   }
 
@@ -340,6 +348,7 @@ footer a {
     font-size: 1.4rem;
   }
 }
+
 @media only screen and (min-width: 480px) and (max-width: 620px) {
   h1 {
     font-size: 2.8rem;
@@ -411,6 +420,7 @@ footer a {
     font-size: 1.6rem;
   }
 }
+
 @media only screen and (min-width: 620px) and (max-width: 990px) {
   h1 {
     font-size: 3rem;
@@ -479,6 +489,7 @@ footer a {
     font-size: 1.8rem;
   }
 }
+
 @media only screen and (min-width: 990px) and (max-width: 1280px) {
   p {
     font-size: 0.9rem;
@@ -514,6 +525,7 @@ footer a {
     font-size: 1.8rem;
   }
 }
+
 @media only screen and (min-width: 1280px) and (max-width: 1920px) {
   .gallery {
     display: none;
@@ -525,5 +537,3 @@ footer a {
 }
 /* Responsive Section End */
 /* Work Section End */
-
-/*# sourceMappingURL=style.css.map */
